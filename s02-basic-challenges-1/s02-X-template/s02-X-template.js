@@ -3,15 +3,17 @@ const testString =
 
 const testArray = [2, 3, 6, 5, 4, 3, 2, 10, 1, 12, 20, 19, 222];
 
-const countOccurences = str => {
+const testFunction = str => {
    let res = 0;
-   for (let i = 0; i < str, length; i++) {
-      const cur = str[i];
+   for (let i = 0; i < str.length; i++) {
+      const curent = str[i];
       if (true) {
+      } else {
+         false;
       }
    }
    return res;
 };
 
-const result = countOccurences(3, 5);
-console.log(result);
+const answer = testFunction(testArray);
+console.log(answer);
